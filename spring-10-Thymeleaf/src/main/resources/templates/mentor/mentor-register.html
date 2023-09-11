@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>Cydeo</title>
+</head>
+<body>
+
+<div align="center">
+    <!--action describes what happens when we click the submit-->
+    <!--method defines to which method we want to go,if we had to /mentor/confirm of post and get
+        for example-->
+    <!--linking the form to the mentor object we sent in the controller with model-->
+    <form th:action="@{/mentor/confirm}" method="post" th:object="${mentor}">
+
+    <label>First Name:</label>
+    <input type="text" th:field="*{firstName}"><br><!--assign the field to the property of the object-->
+
+    <label>Last Name:</label>
+    <input type="text" th:field="*{lastName}"><br>
+
+    <label>Email:</label>
+    <input type="email" th:field="*{email}"><br>
+
+    <label>Graduated:</label>
+    <input type="checkbox" th:field="*{graduated}"><br>
+
+    <label>Gender:</label>
+    <input type="radio" value="Male" th:field="*{gender}">Male
+    <input type="radio" value="Female" th:field="*{gender}">Female<br>
+
+    <label>Batch Number:</label>
+    <select th:field="*{batch}">
+        <option th:each = "theBatch : ${batchList}" th:value="${theBatch}" th:text="${theBatch}" ></option>
+    </select><br>
+
+    <label>Company:</label>
+    <textarea th:field="*{company}"></textarea><br>
+
+    <button type="submit">Register</button>
+
+
+</form>
+
+</div>
+
+</body>
+</html>
