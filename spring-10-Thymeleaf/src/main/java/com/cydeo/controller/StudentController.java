@@ -20,12 +20,40 @@ public class StudentController {
 
     }
 
+    //the regular welcome page: (welcome in html welcome example)
+   /* @RequestMapping("/welcome")
+    public String welcome(){
+
+        return "student/welcome";
+    }
+    */
+
+/*
+//catching the parameter from the link(link1 in html welcome example)
+@RequestMapping("/welcome")
+public String welcome(@RequestParam int id){
+    System.out.println(id);
+    return "student/welcome";
+}
+*/
+
+    //catching the parameter from the link(link2 in html welcome example)
+    //for example= http://localhost:8080/student/welcome?name=ozzy
+    @RequestMapping("/welcome")
+    public String welcome(@RequestParam String name){
+        System.out.println(name);
+        return "student/welcome";
+    }
+
+
+    //example of using postMapping annotation
+    // post means we are giving data
    //@RequestMapping(value = "/welcome",method = RequestMethod.POST) //localhost:8080/student/welcome?name=Ozzy
-    //post means we are giving data
-    @PostMapping("/welcome")
+  /* @PostMapping("/welcome")
     public String welcome(@RequestParam String name){
 
         return "student/welcome";
     }
 
+*/
 }
