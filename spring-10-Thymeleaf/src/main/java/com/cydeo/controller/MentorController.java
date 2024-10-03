@@ -33,7 +33,7 @@ public class MentorController {
 
         //return "mentor/mentor-register"; this way after register clicked
         // the recent mentor data(object) will be catched by the register form and
-        // the fields will remain with the recent fata
+        // the fields will remain with the recent data
 
         //we redirect to the register endpoint
         return "redirect:/mentor/register";
