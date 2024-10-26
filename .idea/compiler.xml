@@ -16,6 +16,8 @@
         <module name="spring-05-Core-Abstraction" />
         <module name="spring-09-MVC-Model" />
         <module name="spring-08-MVC-Controller" />
+        <module name="Spring-15-REST" />
+        <module name="Spring-16-REST-Jackson" />
         <module name="spring-02-Core-IoC-Stereotype-Annotation" />
         <module name="spring-12-Data-Relationship" />
         <module name="spring-14-Data-Queries" />
@@ -27,6 +29,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-15-REST" options="-parameters" />
+      <module name="Spring-16-REST-Jackson" options="-parameters" />
       <module name="spring-07-SpringBoot-Demo" options="-parameters" />
       <module name="spring-08-MVC-Controller" options="-parameters" />
       <module name="spring-09-MVC-Model" options="-parameters" />
