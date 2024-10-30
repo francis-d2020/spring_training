@@ -18,6 +18,7 @@
         <module name="spring-09-MVC-Model" />
         <module name="spring-08-MVC-Controller" />
         <module name="Spring-15-REST" />
+        <module name="Spring-19-REST-OpenAPI3" />
         <module name="Spring-16-REST-Jackson" />
         <module name="spring-18-REST-SchoolLab" />
         <module name="spring-02-Core-IoC-Stereotype-Annotation" />
@@ -33,6 +34,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring-15-REST" options="-parameters" />
       <module name="Spring-16-REST-Jackson" options="-parameters" />
+      <module name="Spring-19-REST-OpenAPI3" options="-parameters" />
       <module name="spring-07-SpringBoot-Demo" options="-parameters" />
       <module name="spring-08-MVC-Controller" options="-parameters" />
       <module name="spring-09-MVC-Model" options="-parameters" />
