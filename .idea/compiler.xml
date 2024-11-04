@@ -21,6 +21,8 @@
         <module name="Spring-19-REST-OpenAPI3" />
         <module name="Spring-16-REST-Jackson" />
         <module name="spring-18-REST-SchoolLab" />
+        <module name="spring-20-REST-Security-Keycloak-LicenseApp" />
+        <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" />
         <module name="spring-02-Core-IoC-Stereotype-Annotation" />
         <module name="spring-12-Data-Relationship" />
         <module name="spring-14-Data-Queries" />
@@ -45,6 +47,8 @@
       <module name="spring-14-Data-Queries" options="-parameters" />
       <module name="spring-17-REST-ConsumingApis" options="-parameters" />
       <module name="spring-18-REST-SchoolLab" options="-parameters" />
+      <module name="spring-20-REST-Security-Keycloak-LicenseApp" options="-parameters" />
+      <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" options="-parameters" />
     </option>
   </component>
 </project>
