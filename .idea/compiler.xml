@@ -14,6 +14,7 @@
         <module name="spring-03-Wiring" />
         <module name="spring-00-Coupling" />
         <module name="spring-01-Core-IoC-Bean-Annotation" />
+        <module name="spring-21-AOP" />
         <module name="spring-05-Core-Abstraction" />
         <module name="spring-09-MVC-Model" />
         <module name="spring-08-MVC-Controller" />
@@ -49,6 +50,7 @@
       <module name="spring-18-REST-SchoolLab" options="-parameters" />
       <module name="spring-20-REST-Security-Keycloak-LicenseApp" options="-parameters" />
       <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" options="-parameters" />
+      <module name="spring-21-AOP" options="-parameters" />
     </option>
   </component>
 </project>
